@@ -1,0 +1,267 @@
+/*estilos de header */
+
+nav ul li{
+    color: black;
+    box-sizing: border-box ;
+margin: 0;
+padding: 0;
+}
+
+header{
+    
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);;
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1.3rem;
+    text-decoration: none;
+
+}
+
+.enlace{
+    text-decoration: none;
+    padding: 60px 10px;
+}
+
+
+
+/*estilos de main*/
+
+main .intro{
+    text-align: center;
+    margin-top: 40px;
+    margin: 2%;
+    width: 100%;
+    height: 350px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:17px ;
+}
+
+
+main .intro-t{
+    margin-left: 400px;
+    margin-right: 400px ;
+}
+
+main .imguno{
+    margin-left: 17%
+}
+ 
+.banerinicio{
+    margin-top: 20px;
+    width: 100%;
+}
+
+main .imgdos{
+    height:400px ;
+    width: 300px;
+    text-align: center;
+    margin-right: 200px;}
+
+main .imgtres{
+    height:400px ;
+    width: 300px;
+    margin-right: auto;  
+}
+  
+
+main .titulodos{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+main .titulotres{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+main .imgcuatro{
+    margin-left: 17%;
+}
+
+main.imgcinco{
+text-align: center;
+margin-right: 200px;
+}
+
+main .banner{
+    margin-top: 15px;
+width: 100%;
+}
+
+/*estilos de footer*/
+
+footer .fb, .ig, .wp{
+    height: 30px;
+}
+
+footer{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:20px ;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  background-color: #e3fde0;
+}
+
+
+/*main de facial*/
+
+main .banner-facial{
+    margin-top: 15px;
+    width: 100%;
+}
+
+main .radio, .himfu, .foto, .dermap, .ionto{
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 30px;
+ color: rgb(58, 190, 98);
+ text-align: center;
+}
+
+main .radio-parraf, .himfu-parraf, .foto-parraf, .derma-p, .ionto-p{
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.imgfacial{
+    text-align: center;
+}
+
+
+.radio{
+    
+}
+
+/* main corporal */
+
+main .baner-corporal{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.body, .radio, .ender, .ultra, .preso, .termo{
+    font-family: 'Source Sans Pro', sans-serif;
+ font-size: 30px;
+ color: #3abe62;
+ text-align: center;
+}
+
+.parrafcorpo{
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.corpoimg{
+    text-align: center;
+    margin-left: 360px;
+}
+
+/*nosotros */
+
+main .intro {
+    text-align: center;
+    margin-top: 40px;
+    margin: 2%;
+    width: 100%;
+    height: 350px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    margin-bottom: 90px;
+}
+.espacio{
+    text-align: center;
+    margin-top: 40px;
+    margin: 2%;
+    width: 100%;
+    height: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.w-90 {
+
+    margin: auto;
+}
+
+/*contacto */
+
+input{
+	width: 40%;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: 15px;
+	border: 1px solid #3abe62;
+	-moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+	display:block;
+	
+}
+textarea{
+	width: 40%;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: 15px;
+	border: 1px solid #3abe62;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	display:block;
+	max-width: 40%;
+    max-height: 100px;
+    
+}
+input[type="submit"]{
+	width: 40%;
+	display:block;
+	background-color: #3abe62;
+	color: #ffffff;
+	
+
+}
+label{margin: auto;
+text-align: center;}
+
+/*movile*/ 
+      @media screen and (max-width: 600px){
+        
+ /*inicio*/
+  
+ .imggdos{ margin-left: 87px;}
+  .imgtres{margin-left: 87px;}
+      }
+      .imgcinco{margin-left: 87px;
+      }
+      .imgseis{margin-left: 87px;}
+
+      /*facial*/
+      .radiofrecuencia, .himfu, .foto, .derma, .crioionto{
+        width: 600px;
+      }
+
+     .presoterapia, .endermologie{width: 600px;}
+
+     /*nosotros*/
+    
+     
+
+  
+     
